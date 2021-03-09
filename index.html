@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Document</title>
+</head>
+<body>
+      <div class="wrap">
+            <main>
+                  <h1>Simulador de financiamento</h1>
+            </main>
+      
+            <section>
+                  <form>
+                        <div class="form-inputs">
+                              <label  for="valor-total">Valor:
+                                    <input id="valor-total" type="text" placeholder="200.000" required>
+                              </label>    
+                              <label for="prazo-anos">Prazo (anos):
+                                    <input id="prazo-anos" type="text" placeholder="20" required>
+                              </label>
+                              <label for="juros-ano">Juros ao ano:
+                                    <input id="juros-ano" type="text" placeholder="0,08" required>
+                              </label>
+                        </div>
+                        <div>
+                              <button class="button-simulate">Simular</button>
+                        </div>
+                  </form>
+            </section>
+            
+            <section>
+                  <h2>Resultado</h2>
+                  <div class="form-inputs">
+                        <label for="prazo-em-meses">Prazo (meses):
+                              <input id="prazo-em-meses" type="text" disabled>
+                        </label>    
+                        <label for="juros-ao-mes">Juros ao mês:
+                              <input id="juros-ao-mes" type="text" disabled>
+                        </label>
+                        <label for="juros-acumulados">Juros ao acumulados:
+                              <input id="juros-acumulados" type="text" disabled>
+                        </label>
+                  </div>
+            </section>
+            
+            <section class="table-wrap">
+                  <div>
+                        <table>
+                              <thead>
+                                    <tr>
+                                          <th>Prestação</th>
+                                          <th>Amortização</th>
+                                          <th>Juros</th>
+                                          <th>Total</th>
+                                    </tr>
+  
+                              </thead>
+                              <tbody>
+                                    
+                              </tbody>
+                        </table>
+                  </div>
+            </section>
+      </div>
+
+      <script src="js/app.js"></script>
+</body>
+</html>

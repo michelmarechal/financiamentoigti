@@ -1,0 +1,76 @@
+* {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+}
+
+body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #DB1A85;
+      background: -webkit-linear-gradient(top left, #DB1A85, #2447BC);
+      background: -moz-linear-gradient(top left, #DB1A85, #2447BC);
+      background: linear-gradient(to bottom right, #DB1A85, #2447BC);
+}
+
+
+.wrap {
+      padding: 3rem;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.28);
+      -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.28);
+      box-shadow: 15px 15px 5px -3px rgba(0,0,0,0.28);
+      padding-bottom: 2rem;
+}
+
+h1 {
+      margin-bottom: 2rem;
+}
+
+section form button {
+      margin: 1rem 0;
+}
+
+input, button {
+      display: block;
+}
+
+label:nth-of-type(2) {
+      margin: 0 1rem;
+}
+
+.form-inputs {
+      display: flex;
+      flex-direction: row;
+}
+
+input[type="text"]:disabled {
+      background: white;
+}
+table {
+      border-collapse: collapse; 
+      margin-top: 2rem;
+}
+tr {
+      border: 1px solid black;
+
+}
+tr, td {
+      min-width: 100px;
+      text-align: right;
+      padding: 2px;
+}
+tr:nth-of-type(2n) {
+      background-color: violet;
+}
